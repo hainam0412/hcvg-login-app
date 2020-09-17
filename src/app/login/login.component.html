@@ -1,0 +1,26 @@
+<div class="login-container">
+  <h1>Welcome</h1>
+
+  <div #form class="form w-4" >
+    <div class="form-item mb-20">
+      <input type="text" class="form-control"  name="name" placeholder="User name" #name />
+    </div>
+  
+    <div class="form-item mb-20">
+      <input type="text" class="form-control"  name="password" placeholder="Password" #password />
+    </div>
+  
+    <div class="form-item text-center fz-14">
+      <button
+        class="btn btn-primary btn-round btn-sm" 
+         type="submit" (click)="loginUser(name.value,password.value);name.value='';password.value=''" >
+        Submit 
+        
+      </button>
+    </div>
+
+  </div>
+  
+
+  
+</div>

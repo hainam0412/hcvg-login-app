@@ -1,0 +1,20 @@
+.login-container{
+    background-color:#21252B;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        margin-bottom: 3rem;
+        color:#f1f1f1;
+        
+    }
+
+    .form{
+        background-color:#fff;
+        border:.1rem solid #ccc;
+        padding:1.5rem;
+    }
+}
